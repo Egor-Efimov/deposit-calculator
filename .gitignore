@@ -1,0 +1,23 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# ===== Java / Spring Boot =====
+target/
+*.class
+*.log
+.mvn/wrapper/maven-wrapper.jar
+!backend/.mvn/wrapper/maven-wrapper.properties
+
+# ===== Node.js / React / Vite =====
+node_modules/
+dist/
+.env
+.env.local
+
+# ===== OS / Прочее =====
+.DS_Store
+Thumbs.db
